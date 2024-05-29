@@ -221,7 +221,7 @@ print(conjunto)
 print(copia)
 
 
-    print ("Método copy()")
+print ("Método copy()")
 conjunto = {'🍕','🍔','🍟','🌭'}
 print (conjunto)
 copia = conjunto.copy()
@@ -260,7 +260,7 @@ print (conjunto)
 print (sum(conjunto))
 
 
-    print ("Operador |=")
+print ("Operador |=")
 conjunto1 = {'🍔','🍟', '🥤'}
 conjunto2 = {'🍕','🍨'}
 print (conjunto1, conjunto2)
@@ -277,7 +277,7 @@ print(conjunto1 == conjunto2)
 print(conjunto1 == conjunto3)
 
 
-    print ("Operador !=")
+print ("Operador !=")
 conjunto1 = {'🍔','🍟', '🥤'}
 conjunto2 = {'🍔','🍟', '🥤'}
 conjunto3 = {'🍕','🍨'}
@@ -286,7 +286,7 @@ print(conjunto1 != conjunto2)
 print(conjunto1 != conjunto3)
 
 
-    print ("Operador <")
+print ("Operador <")
 conjunto1 = {'🍔','🍟'}
 conjunto2 = {'🍔','🍟', '🥤'}
 conjunto3 = {'🍕','🍨'}
@@ -313,7 +313,7 @@ print(conjunto1 <= conjunto2)
 print(conjunto1 <= conjunto3)
 
 
-    print ("Operador >=")
+print ("Operador >=")
 conjunto1 = {'🍔','🍟'}
 conjunto2 = {'🍔','🍟'}
 conjunto3 = {'🍕','🍨'}
@@ -346,7 +346,7 @@ print("1 - 2:",diferencia)
 diferencia = conjunto2 - conjunto1
 print("2 - 1:",diferencia)
 
-    print ("Operador ^")
+print ("Operador ^")
 conjunto1 = {'🍔','🍟', '🥤'}
 conjunto2 = {'🍕','🍨','🥤'}
 print (conjunto1, conjunto2)
