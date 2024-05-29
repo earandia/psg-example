@@ -156,37 +156,3 @@ valor_anidado_0 = anidado[0]
 print (valor_anidado_0, type(valor_anidado_0))
 valor_anidado_1 = tupla[3][1]
 print (valor_anidado_1, type(valor_anidado_1))	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Commit
-
-Commit de la sesión a nuestro repositorio
-
-git add .
-git commit -m "Clase sesión 08"
-git push
-
