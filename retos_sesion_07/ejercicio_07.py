@@ -1,0 +1,1 @@
+Convertir y ejecutar el archivo de la "sesion07.py" a un archivo en jupyter notebook
