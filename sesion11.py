@@ -125,7 +125,7 @@ print(keys, type(keys))
 print(keys[0], type(keys[0]))
 
 
-    print ("Método values()")
+print ("Método values()")
 diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
 print(diccionario)
 values = diccionario.values()
@@ -176,63 +176,63 @@ print(diccionario)
 
 
 print ("Asignación por referencia")
-	diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
-	print(diccionario)
-	copia = diccionario
-	print(copia)
-	copia['ave'] = '🦅'
-	print(diccionario)
-	print(copia)
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+copia = diccionario
+print(copia)
+copia['ave'] = '🦅'
+print(diccionario)
+print(copia)
 
 
-    print ("Método copy()")
-	diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
-	print(diccionario)
-	copia = diccionario.copy()
-	print(copia)
-	copia['ave'] = '🦅'
-	print(diccionario)
-	print(copia)
+print ("Método copy()")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+copia = diccionario.copy()
+print(copia)
+copia['ave'] = '🦅'
+print(diccionario)
+print(copia)
 
 
-    print ("Función len()")
-	diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
-	print(diccionario)
-	longitud = len(diccionario)
-	print(longitud)
+print ("Función len()")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+longitud = len(diccionario)
+print(longitud)
 
 
-    print ("Función in  / not in")
-	diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
-	print(diccionario)
-	existe = 'perro' in diccionario
-	print(existe, type(existe))
-	no_existe = 'pez' not in diccionario
-	print(no_existe, type(no_existe))
+print ("Función in  / not in")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+existe = 'perro' in diccionario
+print(existe, type(existe))
+no_existe = 'pez' not in diccionario
+print(no_existe, type(no_existe))
 
 
-    print ("Función iter()")
-	diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
-	print(diccionario)
-	iterador = iter(diccionario.items())
-	print(type(iterador))
-	siguiente = next(iterador)
-	print(siguiente, type(siguiente))
-	siguiente = next(iterador)
-	print(siguiente, type(siguiente))
-	siguiente = next(iterador)
-	print(siguiente, type(siguiente))
+print ("Función iter()")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+iterador = iter(diccionario.items())
+print(type(iterador))
+siguiente = next(iterador)
+print(siguiente, type(siguiente))
+siguiente = next(iterador)
+print(siguiente, type(siguiente))
+siguiente = next(iterador)
+print(siguiente, type(siguiente))
 
 
-    print ("Diccionarios anidados")
-	diccionario = {'perro': '🐶', 'gato': '🐱',  'ave': {'pajaro': '🐦', 'aguila': '🦅'}}
-	print(diccionario)
-	aves = diccionario['ave']
-	print(aves)
-	ave = aves['pajaro']
-	print(ave)
-	ave = aves['aguila']
-	print(ave)
+print ("Diccionarios anidados")
+diccionario = {'perro': '🐶', 'gato': '🐱',  'ave': {'pajaro': '🐦', 'aguila': '🦅'}}
+print(diccionario)
+aves = diccionario['ave']
+print(aves)
+ave = aves['pajaro']
+print(ave)
+ave = aves['aguila']
+print(ave)
 
 
     
