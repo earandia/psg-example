@@ -1,8 +1,8 @@
 print ("Inicio")
 condicion = True
 if condicion:
-# Bloque de código
-print ("Cumple condición")
+    # Bloque de código
+    print ("Cumple condición")
 print ("Fin")
 
 print ("Inicio")
@@ -14,11 +14,11 @@ print ("Fin")
 print ("Inicio")
 condicion = False
 if condicion:
-# Bloque de código
-print ("Cumple condición")
+    # Bloque de código 
+    print ("Cumple condición")
 else:
-# Bloque de código
-print ("No cumple condición")
+    # Bloque de código
+    print ("No cumple condición")
 print ("Fin")
 
 
@@ -31,28 +31,17 @@ else:
 print ("Fin")
 
 
-if condicion_1:
-print ("Cumple 1")
-if condicion_2:
-    print ("Cumple 2")
-else:
-    print ("No cumple 2")
-else:
-print ("No cumple 1")
-
-
-
 print ("Inicio Anidado")
 condicion_1 = True
 condicion_2 = False
 if condicion_1:
-print ("Cumple condición 1")
-if condicion_2:
-    print ("Cumple condición 2")
+    print ("Cumple condición 1")
+    if condicion_2:
+        print ("Cumple condición 2")
+    else:
+        print ("No cumple condición 2")
 else:
-    print ("No cumple condición 2")
-else:
-print ("No cumple condición 1")
+    print ("No cumple condición 1")
 print ("Fin")
 
 
@@ -84,11 +73,11 @@ print ("Fin")
 print ("Inicio Positivo, Negativo o Cero")
 numero = -1
 if numero > 0:
-print ("El número es positivo")
+    print ("El número es positivo")
 elif numero < 0:
-print ("El número es negativo")
+    print ("El número es negativo")
 else:
-print ("El número es cero")
+    print ("El número es cero")
 
 
 
@@ -182,7 +171,7 @@ else:
 print ("Fin")
 
 
-    print ("Truthiness None")
+print ("Truthiness None")
 valor = None
 print (valor, type(valor))
 if valor: # valor != None
@@ -223,19 +212,19 @@ else:
 animal = {'especie':'🐶', 'nombre': 'Firulais', 'mamifero': True}
 print (animal)
 if animal.get('mamifero'): # animal['mamifero']
-print ("Es un mamífero")
+    print ("Es un mamífero")
 else:
-print ("No es un mamífero")
+    print ("No es un mamífero")
 
 
 conjunto_1 = {'⚽','🏀','🏐'}
 conjunto_2 = {'🏈','🏉','🏓'}
 print (conjunto_1, conjunto_2)
 if conjunto_1.isdisjoint(conjunto_2): # len(conjunto_1.intersection(conjunto_2)) == 0
-conjunto_1.update(conjunto_2)
-print (conjunto_1)
+    conjunto_1.update(conjunto_2)
+    print (conjunto_1)
 else:
-print ("Tienen elementos en común")
+    print ("Tienen elementos en común")
 print (conjunto_1.intersection(conjunto_2))
 
 
@@ -257,7 +246,7 @@ else:
 
 
     #solucion con elif
-    correo = input("Correo: ")
+correo = input("Correo: ")
 if "@" not in correo or "." not in correo or correo.count("@") != 1:
     print("El correo no es válido")
 elif correo.find("@") >= correo.rfind(".") or correo.find("@") == 0 or correo.rfind(".") == len(correo) - 1:
