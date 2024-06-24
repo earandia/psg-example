@@ -3,5 +3,10 @@
 # si el número es divisible por 5 imprimir Buzz, 
 # si el número es divisible por 3 y 5 imprimir FizzBuzz
 
-
-# Convertir y ejecutar el archivo de la "sesion13.py" a un archivo en jupyter notebook
+for i in range(1,101):
+    if (i%3 == 0 and i%5==0):
+        print(f"{i}: FizzBuzz")
+    elif i%5 == 0:
+        print(f"{i}: Buzz")
+    else:
+        print(f"{i}: Fizz")
