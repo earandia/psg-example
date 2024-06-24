@@ -155,7 +155,7 @@ contador = 0
 while True:
 	print(contador)
 	contador += 1
-
+	break;
 
 print ("Ejemplo 16")
 while True:
