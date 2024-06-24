@@ -284,7 +284,7 @@ print (lista1 is not lista2)
 print (lista3 is lista1)
 
 
- print ("Menor y Menor Igual que")
+print ("Menor y Menor Igual que")
 print ([1,2,3] <= [1,2,4])
 print ([1,2,3] <= [1,2,2,2])
 print ([1,2,3] <= [2])
