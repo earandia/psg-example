@@ -55,7 +55,3 @@ if gustos_list.index("rock"):
     print("Te gusta el rock")
 else:
     print("No te gusta el rock")
-
-
-# print(nombre)
-# print(gustos)
