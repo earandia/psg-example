@@ -12,4 +12,3 @@ print(visitar_b)
 # Ahora quieren saber en que ciudades han estado ambos mochileros
 ambas_ciudades = mochilero_a.intersection(mochilero_b)
 print(ambas_ciudades)
-# Convertir y ejecutar el archivo de la "sesion10.py" a un archivo en jupyter notebook
