@@ -17,15 +17,24 @@ resultado = 0
 
 if operacion == "/":
     resultado = numero_1 / numero_2
+    valido = True
 elif operacion == "*":
     resultado = numero_1 * numero_2
+    valido = True
 elif operacion == "-":
     resultado = numero_1 - numero_2
-else:
+    valido = True
+elif operacion == "+":
     resultado = numero_1 + numero_2
+    valido = True
+else:
+    valido = False
 
-print("Número 1:",numero_1)
-print("Número 2:",numero_2)
-print("Operacion:",operacion)
-print("------------")
-print("Resultado:",resultado)
+if valido:
+    print("Número 1:",numero_1)
+    print("Número 2:",numero_2)
+    print("Operacion:",operacion)
+    print("------------")
+    print("Resultado:",resultado)
+else:
+    print ("operacion invalida")
