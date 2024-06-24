@@ -131,11 +131,8 @@ def funcion(parametro):
     print (parametro)
 
 # funcion("Bloque de código") #1 Argumento
-
 # Bloque de código
-
 # El parámetro es una variable de la función puede ser de cualquier tipo
-
 # Números, cadenas, listas, diccionarios, tuplas, conjuntos, etc.
 
 
@@ -576,14 +573,3 @@ print (resultado)
 resultado = cuadrado(10)
 print (resultado)
 
-# Ejercicio 13, Crear una función anónima para obtener de una cadena las letras solo los alfanuméricos y convertir en mayúsculas
-
-cadena = "Python es un lenguaje de programación"
-
-# Solución 13
-
-cadena = "Python es un lenguaje de programación"
-limpiar = lambda cadena: "".join([letra for letra in cadena if letra.isalnum()]).upper()
-resultado = limpiar(cadena)
-print (cadena)
-print (resultado)
